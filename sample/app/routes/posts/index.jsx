@@ -7,9 +7,9 @@ export const loader = () => {
             {id:2, title: 'Post 2', body: 'This is a test post'},
             {id:3, title: 'Post 3', body: 'This is a test post'}
         ]
-    }
+    } 
     return data
-}
+} 
 
 function PostItems() {
     const {posts} = useLoaderData()
